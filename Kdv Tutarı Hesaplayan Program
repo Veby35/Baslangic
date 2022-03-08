@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class CamelCase {
+
+    public static void main(String[] args) {
+       double tutar,kdv;
+       kdv = 1.18;
+       Scanner inp = new Scanner(System.in);
+       System.out.print("Tutar Giriniz : ");
+       tutar = inp.nextDouble();
+       System.out.println("Kdv'siz Fiyat : " + tutar);
+       double toplam = tutar*kdv;
+       System.out.println("Kdv'li Fiyat : " + toplam);
+       System.out.print("Kdv Tutarı : " + kdv);
+       
+    }
+}
